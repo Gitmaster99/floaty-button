@@ -43,24 +43,24 @@ describe('FloatyButton.vue', () => {
     expect(wrapper.find('v-btn').position=='bl' && this.left==true && this.bottom==true);
   });
 //Test to determine if the button's position is equal to the position entered in the Component's attributes.
-  test('Button is getting the right position.', () => {
-    const wrapper = mount(FloatyButton, {
-      propsData: {
-        left: '',
-        right: '',
-        top: '',
-        bottom: ''
-      }
-    })
-    expect(wrapper.props().left).toBe(true)
-    expect(wrapper.props().right).toBe(true)
-    expect(wrapper.props().top).toBe(true)
-    expect(wrapper.props().bottom).toBe(true)
-  });
+  // test('Button is getting the right position.', () => {
+  //   const wrapper = mount(FloatyButton, {
+  //     propsData: {
+  //       left: '',
+  //       right: '',
+  //       top: '',
+  //       bottom: ''
+  //     }
+  //   })
+  //   expect(wrapper.props().left).toBe(true)
+  //   expect(wrapper.props().right).toBe(true)
+  //   expect(wrapper.props().top).toBe(true)
+  //   expect(wrapper.props().bottom).toBe(true)
+  // });
 //Test to determine if the button's position is equal to the position entered in the Component's attributes.
-  test('setProps demo', async () => {
-    const wrapper = shallowMount(FloatyButton)
-    await wrapper.setProps({ left: true })
-    expect(wrapper.vm.left).toBe(true)
-  });
+  // test('setProps demo', async () => {
+  //   const wrapper = shallowMount(FloatyButton)
+  //   await wrapper.setProps({ left: true })
+  //   expect(wrapper.vm.left).toBe(true)
+  // });
 });

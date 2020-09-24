@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Gitmaster99/floaty-button.svg?branch=master)](https://travis-ci.com/Gitmaster99/floaty-button)
+[![Coverage Status](https://coveralls.io/repos/github/Gitmaster99/floaty-button/badge.svg?branch=master)](https://coveralls.io/github/Gitmaster99/floaty-button?branch=master)
 # floaty-button
 
 ## Project setup
