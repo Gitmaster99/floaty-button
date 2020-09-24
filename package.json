@@ -9,7 +9,8 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "coverage": "nyc report --reporter=text-lcov | coveralls" 
+    "test": "nyc --reporter=html --reporter=text --reporter=lcov vue-cli-service test:unit",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "core-js": "^3.6.5",
